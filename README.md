@@ -115,6 +115,11 @@ Then:
 python Week_2/Day_01/scripts/02_clean_orders_day01.py
 ```
 
+**Day 02** (functions, lambdas, decorators, generators) — notebooks only:
+
+- `Week_2/Day_02/notebooks/01_functions_demo.ipynb`
+- `Week_2/Day_02/notebooks/02_clean_orders_day02.ipynb`
+
 ## Week 2 · Day 01 layout
 
 ```
@@ -129,3 +134,15 @@ Week_2/Day_01/
 | 02 | `scripts/02_clean_orders_day01.py` | `notebooks/02_clean_orders_day01.ipynb` | Filter to `completed` + non-null `amount`, normalize `city`, print revenue KPIs (expect 3 orders, `485.50`) |
 
 Open notebooks in Cursor/VS Code with the **Python (aws-de-keystone)** kernel when `.venv` is active.
+
+## Week 2 · Day 02 layout
+
+```
+Week_2/Day_02/
+  notebooks/   # labs live here (no scripts/ folder)
+```
+
+| # | Notebook | Purpose |
+|---|----------|---------|
+| 01 | `notebooks/01_functions_demo.ipynb` | Functions, `lambda` / `key=`, decorators, generators; anatomy diagrams under `notebooks/assets/` |
+| 02 | `notebooks/02_clean_orders_day02.ipynb` | Same Day 01 silver rules via functions + `@log_pipeline_run` (3 orders, `485.50` revenue; top order_id **6**) |
